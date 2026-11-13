@@ -1,0 +1,5 @@
+- Carpetas y nombres configurables (ej. `Ventas Pista 13_10_2026.zip`), con vista previa
+- Historial con periodos, excepciones y calendario; opción "Omitir historial"
+- Base de datos completa en .zip, .bak o ambos
+- Avisos por correo, comparador de zips y actualizaciones automáticas
+- Mismo formato que "Exportar" de SoftRestaurant (verificado byte por byte)

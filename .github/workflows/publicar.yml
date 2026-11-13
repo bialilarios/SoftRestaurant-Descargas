@@ -1,0 +1,20 @@
+# Al subir un tag softbackup-vX.Y.Z crea el release con softbackup/SoftBackup.zip
+name: Publicar SoftBackup
+on:
+  push:
+    tags: ['softbackup-v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Crear release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          NOTAS="softbackup/NOTAS.md"
+          [ -f "$NOTAS" ] || echo "SoftBackup ${TAG#softbackup-v}" > "$NOTAS"
+          gh release create "$TAG" softbackup/SoftBackup.zip --title "SoftBackup ${TAG#softbackup-v}" --notes-file "$NOTAS" --latest
