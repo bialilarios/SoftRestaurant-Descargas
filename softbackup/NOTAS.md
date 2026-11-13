@@ -10,3 +10,5 @@
 - Días pasados: más fácil (arrastrar para elegir o quitar) y cada opción explicada
 - Vigilante healthchecks.io explicado paso a paso
 - Ventas y catálogos marcados por defecto; botón "Editar carpeta elegida" solo activo con una carpeta elegida
+
+- Corregido: el actualizador podía fallar con "el archivo está siendo utilizado por otro proceso"
