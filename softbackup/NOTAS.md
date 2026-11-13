@@ -1,1 +1,4 @@
-- Al actualizar ya no hace falta quitar el ícono junto al reloj: se cierra solo mientras se instala la versión nueva y vuelve a aparecer en cuanto termina (SoftBackup y SoftBackup Monitor)
+- SoftBackup Monitor tiene su propio ícono (una pantalla con pulso) para no confundirlo con SoftBackup
+- El ícono junto al reloj de cada programa es su propio ícono con un punto verde, amarillo o rojo según el estado
+- El ícono de SoftBackup junto al reloj ya no tiene "Abrir SoftBackup Monitor": cada programa abre solo el suyo
+- Al actualizar ya no hace falta quitar el ícono junto al reloj (desde 2.5.2)
