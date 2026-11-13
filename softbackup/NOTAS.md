@@ -1,10 +1,7 @@
-- **Monitor de sucursales** (nuevo menú): ve en tu PC cómo van todas las sucursales, aunque estén en otras PCs. Cada SoftBackup deja su estado en su carpeta de OneDrive; el Monitor lo lee y marca al día / con avisos / con errores / sin reportar. Opcional: correo si una sucursal deja de reportar
-- Cada respaldo se comprueba al terminar: los zips (registros por tabla) y el .bak (que se pueda restaurar)
-- Reintento cada hora durante las horas que elijas si algo quedó pendiente (pestaña Automático; vuelve a dar "Activar / guardar horario")
-- OneDrive: avisa si la carpeta no existe, no hay acceso o OneDrive está cerrado. Si no se puede guardar ahí, guarda en la PC y lo mueve solo en cuanto se pueda. También avisa si queda poco espacio
-- Venta total de cada día en la pestaña Días y en los correos
-- Correos de error y avisos: una sola vez al día; el de "salió bien" solo si de verdad se respaldó algo
-- Ícono junto al reloj (verde/amarillo/rojo) con avisos de Windows
-- PIN para abrir SoftBackup (Información)
-- Bitácora: todo lo que ha hecho el programa, con filtro y búsqueda
-- Pasar la configuración a otra PC: guardar una sucursal o todo en un archivo .softbackup (sin contraseñas) y abrirlo en la otra
+- **Se actualiza solo**: el respaldo automático revisa una vez al día y, si hay versión nueva, la instala sin abrir ventanas (se puede apagar en Información)
+- **"Respaldar ahora" desde el Monitor**: en el detalle de una sucursal; su PC lo hace en su próxima revisión (máximo 1 hora)
+- La tarea ahora revisa cada hora todo el día (fuera del horario del respaldo solo atiende pedidos y avisa que la PC sigue viva). Si la PC estaba apagada a la hora del respaldo, respalda en cuanto se prende. La tarea se actualiza sola
+- **Horario de servicio** (pestaña Automático): en ese horario no se saca la base completa, o no se respalda nada
+- **Revisar que sí haya información** (Más opciones): avisa si un día tiene turnos pero ninguna cuenta, si un día no tiene turnos aunque normalmente se abre, si los catálogos vienen vacíos o con muchos menos registros, o si la base completa mide mucho menos que la vez anterior
+- **Prueba de restauración semanal** (Más opciones): restaura el respaldo en una base temporal, cuenta registros y la borra. Nunca toca la base real. Botón "Probar ahora"
+- **Espacio** (Más opciones): cuánto ocupan los respaldos, cuánto crecen al mes y para cuánto alcanza OneDrive; avisa si se está llenando
