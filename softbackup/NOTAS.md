@@ -1,4 +1,2 @@
-- El ícono junto al reloj ya no tiene "Quitar este ícono": ahora dice "Cerrar SoftBackup" (o "Cerrar SoftBackup Monitor") y cierra todo el programa, ventana incluida. El respaldo automático sigue funcionando aunque cierres SoftBackup
-- Al desactivar la opción del ícono, el ícono se quita solo
-- SoftBackup Monitor con su propio ícono, y el ícono junto al reloj de cada programa con un punto de color según el estado (desde 2.5.3)
-- Al actualizar, el ícono junto al reloj se cierra solo y vuelve al terminar (desde 2.5.2)
+- El estado que SoftBackup deja para el monitoreo ahora va cifrado (y sin importes de venta); los archivos viejos sin cifrar se borran solos
+- Los pedidos de "Respaldar ahora" solo se aceptan si vienen firmados

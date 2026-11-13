@@ -1,4 +1,4 @@
-# Cuando cambia softbackup/ en main, publica el release softbackup-v<VERSION> con SoftBackup.zip y SoftBackupMonitor.zip
+# Cuando cambia softbackup/ en main, publica el release softbackup-v<VERSION> con SoftBackup.zip
 name: Publicar SoftBackup
 on:
   push:
@@ -19,7 +19,6 @@ jobs:
           V=$(tr -d ' \r\n' < softbackup/VERSION)
           TAG="softbackup-v$V"
           F="softbackup/SoftBackup.zip"
-          [ -f softbackup/SoftBackupMonitor.zip ] && F="$F softbackup/SoftBackupMonitor.zip"
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" $F --clobber
             gh release edit "$TAG" --notes-file softbackup/NOTAS.md
