@@ -1,7 +1,2 @@
-- **Se actualiza solo**: el respaldo automático revisa una vez al día y, si hay versión nueva, la instala sin abrir ventanas (se puede apagar en Información)
-- **"Respaldar ahora" desde el Monitor**: en el detalle de una sucursal; su PC lo hace en su próxima revisión (máximo 1 hora)
-- La tarea ahora revisa cada hora todo el día (fuera del horario del respaldo solo atiende pedidos y avisa que la PC sigue viva). Si la PC estaba apagada a la hora del respaldo, respalda en cuanto se prende. La tarea se actualiza sola
-- **Horario de servicio** (pestaña Automático): en ese horario no se saca la base completa, o no se respalda nada
-- **Revisar que sí haya información** (Más opciones): avisa si un día tiene turnos pero ninguna cuenta, si un día no tiene turnos aunque normalmente se abre, si los catálogos vienen vacíos o con muchos menos registros, o si la base completa mide mucho menos que la vez anterior
-- **Prueba de restauración semanal** (Más opciones): restaura el respaldo en una base temporal, cuenta registros y la borra. Nunca toca la base real. Botón "Probar ahora"
-- **Espacio** (Más opciones): cuánto ocupan los respaldos, cuánto crecen al mes y para cuánto alcanza OneDrive; avisa si se está llenando
+- **SoftBackup Monitor ahora es un programa aparte** (SoftBackupMonitor.zip en esta misma versión): ves todos los negocios y sus sucursales agrupados, filtras por negocio, buscas, abres el detalle y pides "Respaldar ahora". Tiene su propio ícono junto al reloj con notificaciones de Windows cuando una sucursal tiene errores o deja de reportar, y se actualiza igual que SoftBackup
+- SoftBackup ya no trae el menú del Monitor; sigue dejando su estado en OneDrive cada hora y atendiendo los pedidos de "Respaldar ahora"
