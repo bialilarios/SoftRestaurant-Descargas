@@ -1,2 +1,1 @@
-- Corregido: "Actualizar ahora" descargaba pero no instalaba si el ícono de SoftBackup junto al reloj estaba abierto (tenía el programa ocupado). Ahora el ícono se cierra solo mientras se actualiza y vuelve a aparecer después. Lo mismo en SoftBackup Monitor
-- Incluye todo lo de 2.5.0: SoftBackup Monitor como programa aparte (SoftBackupMonitor.zip)
+- Al actualizar ya no hace falta quitar el ícono junto al reloj: se cierra solo mientras se instala la versión nueva y vuelve a aparecer en cuanto termina (SoftBackup y SoftBackup Monitor)
