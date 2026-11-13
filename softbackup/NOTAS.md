@@ -1,14 +1,12 @@
 **Nuevo**
-- Importar a otra base: catálogos primero y luego ventas por fecha, registro de lo importado, programable después del respaldo diario, copia de seguridad previa y restaurar .bak como base nueva
-- Ver qué trae un zip (tablas y registros) sin importarlo
-- Calendario de días pasados: arrastrar para elegir, vistas de 3, 6 y 12 meses, colores (verde se respalda, rojo excepción, azul ya respaldado)
-- Días pasados: un zip por día, semana, mes, periodo o todo en uno; en las mismas carpetas o en una aparte
-- Carpetas con organizaciones listas, formato de fecha y estilos de nombre
-- Botón Siguiente en cada paso; pestaña Días con calendario y resumen
-- El permiso de SQL para el respaldo automático se da solo al activarlo
+- Paso 6 "¡Listo!": revisión final que dice si todo quedó bien (conexión, carpeta, respaldo automático, permiso de SQL, correos) y arregla lo que falta con un botón
+- Los nombres de carpetas y archivos se arman con piezas (Año, Nombre del mes, Sucursal, texto…), sin códigos
+- Avisos por correo: unos correos para errores y otros para "salió bien" y el resumen; cada sucursal puede tener los suyos
+- La vista previa de carpetas se puede ocultar
 
-**Corregido**
-- La rueda del mouse cambiaba el servidor o la base sin querer
-- Buscar bases o turnos tardaba mucho cuando el servidor no existía
-- Zips de varios días incluían días no elegidos
-- Casillas y opciones difíciles de distinguir; tablas con bordes blancos
+**Mejorado**
+- Al cambiar de sucursal o de pantalla, regresas a la misma pestaña donde estabas
+- Formato de fecha y "agregar al nombre" explicados con ejemplos
+- Días pasados: más fácil (arrastrar para elegir o quitar) y cada opción explicada
+- Vigilante healthchecks.io explicado paso a paso
+- Ventas y catálogos marcados por defecto; botón "Editar carpeta elegida" solo activo con una carpeta elegida
