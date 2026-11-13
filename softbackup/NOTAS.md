@@ -1,2 +1,2 @@
-- **SoftBackup Monitor ahora es un programa aparte** (SoftBackupMonitor.zip en esta misma versión): ves todos los negocios y sus sucursales agrupados, filtras por negocio, buscas, abres el detalle y pides "Respaldar ahora". Tiene su propio ícono junto al reloj con notificaciones de Windows cuando una sucursal tiene errores o deja de reportar, y se actualiza igual que SoftBackup
-- SoftBackup ya no trae el menú del Monitor; sigue dejando su estado en OneDrive cada hora y atendiendo los pedidos de "Respaldar ahora"
+- Corregido: "Actualizar ahora" descargaba pero no instalaba si el ícono de SoftBackup junto al reloj estaba abierto (tenía el programa ocupado). Ahora el ícono se cierra solo mientras se actualiza y vuelve a aparecer después. Lo mismo en SoftBackup Monitor
+- Incluye todo lo de 2.5.0: SoftBackup Monitor como programa aparte (SoftBackupMonitor.zip)
