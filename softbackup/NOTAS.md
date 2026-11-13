@@ -1,4 +1,4 @@
-- SoftBackup Monitor tiene su propio ícono (una pantalla con pulso) para no confundirlo con SoftBackup
-- El ícono junto al reloj de cada programa es su propio ícono con un punto verde, amarillo o rojo según el estado
-- El ícono de SoftBackup junto al reloj ya no tiene "Abrir SoftBackup Monitor": cada programa abre solo el suyo
-- Al actualizar ya no hace falta quitar el ícono junto al reloj (desde 2.5.2)
+- El ícono junto al reloj ya no tiene "Quitar este ícono": ahora dice "Cerrar SoftBackup" (o "Cerrar SoftBackup Monitor") y cierra todo el programa, ventana incluida. El respaldo automático sigue funcionando aunque cierres SoftBackup
+- Al desactivar la opción del ícono, el ícono se quita solo
+- SoftBackup Monitor con su propio ícono, y el ícono junto al reloj de cada programa con un punto de color según el estado (desde 2.5.3)
+- Al actualizar, el ícono junto al reloj se cierra solo y vuelve al terminar (desde 2.5.2)
