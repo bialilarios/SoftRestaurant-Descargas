@@ -1,3 +1,10 @@
-- "Así quedará" (vista previa de carpetas) ahora es una pestaña aparte: se puede cerrar o abrir en una ventana aparte que se actualiza mientras editas
-- Importar: elegir cada cuánto (cada día o una vez por semana) y qué partes del catálogo importar
-- Corregido: el actualizador podía fallar con "el archivo está siendo utilizado por otro proceso"
+- **Monitor de sucursales** (nuevo menú): ve en tu PC cómo van todas las sucursales, aunque estén en otras PCs. Cada SoftBackup deja su estado en su carpeta de OneDrive; el Monitor lo lee y marca al día / con avisos / con errores / sin reportar. Opcional: correo si una sucursal deja de reportar
+- Cada respaldo se comprueba al terminar: los zips (registros por tabla) y el .bak (que se pueda restaurar)
+- Reintento cada hora durante las horas que elijas si algo quedó pendiente (pestaña Automático; vuelve a dar "Activar / guardar horario")
+- OneDrive: avisa si la carpeta no existe, no hay acceso o OneDrive está cerrado. Si no se puede guardar ahí, guarda en la PC y lo mueve solo en cuanto se pueda. También avisa si queda poco espacio
+- Venta total de cada día en la pestaña Días y en los correos
+- Correos de error y avisos: una sola vez al día; el de "salió bien" solo si de verdad se respaldó algo
+- Ícono junto al reloj (verde/amarillo/rojo) con avisos de Windows
+- PIN para abrir SoftBackup (Información)
+- Bitácora: todo lo que ha hecho el programa, con filtro y búsqueda
+- Pasar la configuración a otra PC: guardar una sucursal o todo en un archivo .softbackup (sin contraseñas) y abrirlo en la otra
