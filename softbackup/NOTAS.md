@@ -1,3 +1,2 @@
-- Corregido: el respaldo de la base completa salía "con error" cuando la cuenta del respaldo automático no tiene permiso de crear bases (la comprobación RESTORE VERIFYONLY lo pide). Ahora, sin ese permiso, se usa la revisión CHECKSUM con la que SQL saca el respaldo y el respaldo queda bien
-- Corregido: al importar catálogos o ventas a otra base salía "The DELETE statement conflicted with the REFERENCE constraint…". Ahora las llaves foráneas se pausan solo mientras se reemplazan los registros (dentro de la misma transacción) y se vuelven a activar al terminar
-- Bitácora: los mensajes de SQL de varias líneas ya no se parten en renglones sueltos
+- Nuevo: crear una base de pruebas vacía (Importar a otra base → pestaña "Base de pruebas / .bak"). Tiene la estructura y la configuración de SoftRestaurant pero ningún catálogo ni venta, para importar y ver en SoftRestaurant exactamente qué traen los respaldos. La base de origen solo se lee
+- Incluye lo de 2.6.1: el respaldo de la base ya no falla por la comprobación sin permiso, la importación ya no choca con las llaves foráneas y la bitácora no parte los mensajes
