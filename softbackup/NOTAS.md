@@ -1,3 +1,7 @@
-- Corregido: después de "Activar / guardar horario" seguía diciendo "No está activado en esta PC". La tarea que corre aunque nadie haya iniciado sesión la crea Windows con permisos de administrador y SoftBackup no la alcanzaba a ver; ahora la reconoce. Si de verdad no quedó (por ejemplo si dijiste que no al permiso de administrador), lo dice
-- "Respaldar ahora en segundo plano" ya no depende de la tarea: respalda en ese momento todas las sucursales activas, sin abrir ventanas
-- Las horas se ven en las dos formas: "4:00 a. m. (04:00)", "1:30 p. m. (13:30)", "12:00 p. m. (12:00, mediodía)"
+- Pantalla de cada sucursal más sencilla: 4 pestañas en vez de 8
+  - Inicio: cómo va de un vistazo (todo al día, días por respaldar, errores), último respaldo, los últimos 14 días en colores y la revisión con "Arreglar lo que falta"
+  - Días: el calendario y la tabla de cada día
+  - Configurar: secciones que se abren y cierran (Conexión, Qué respaldar, Carpetas y nombres, Horario automático, Más opciones), cada una con su resumen y ✔ o ✖
+  - Días pasados
+- Los avisos por correo ya no salen como pendientes en la sucursal: se configuran aparte en "Avisos por correo", incluso a quién avisar de cada sucursal
+- Fechas más fáciles de leer ("hoy, 4:05 a. m.")
