@@ -1,2 +1,3 @@
-- El estado que SoftBackup deja para el monitoreo ahora va cifrado (y sin importes de venta); los archivos viejos sin cifrar se borran solos
-- Los pedidos de "Respaldar ahora" solo se aceptan si vienen firmados
+- Corregido: el respaldo de la base completa salía "con error" cuando la cuenta del respaldo automático no tiene permiso de crear bases (la comprobación RESTORE VERIFYONLY lo pide). Ahora, sin ese permiso, se usa la revisión CHECKSUM con la que SQL saca el respaldo y el respaldo queda bien
+- Corregido: al importar catálogos o ventas a otra base salía "The DELETE statement conflicted with the REFERENCE constraint…". Ahora las llaves foráneas se pausan solo mientras se reemplazan los registros (dentro de la misma transacción) y se vuelven a activar al terminar
+- Bitácora: los mensajes de SQL de varias líneas ya no se parten en renglones sueltos
