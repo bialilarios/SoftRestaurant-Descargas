@@ -1,2 +1,5 @@
-- Nuevo: crear una base de pruebas vacía (Importar a otra base → pestaña "Base de pruebas / .bak"). Tiene la estructura y la configuración de SoftRestaurant pero ningún catálogo ni venta, para importar y ver en SoftRestaurant exactamente qué traen los respaldos. La base de origen solo se lee
-- Incluye lo de 2.6.1: el respaldo de la base ya no falla por la comprobación sin permiso, la importación ya no choca con las llaves foráneas y la bitácora no parte los mensajes
+- El menú de la izquierda se puede contraer (botón «) para dejar más espacio; contraído muestra solo íconos e iniciales de cada sucursal, con su punto de color. Se queda como lo dejaste
+- Corregido: al escribir el nombre de una importación la pantalla se volvía a armar con cada letra
+- Ya no aparece la barra para desplazarse a los lados: las notas a la derecha se acomodan en varios renglones y las pestañas se aprietan si no caben
+- La ventana ya no puede ser más grande que la pantalla en laptops con la letra al 125 %
+- Más fluido al escribir: el encabezado y el menú no se recalculan con cada letra
