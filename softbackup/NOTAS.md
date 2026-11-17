@@ -1,5 +1,6 @@
-- El menú de la izquierda se puede contraer (botón «) para dejar más espacio; contraído muestra solo íconos e iniciales de cada sucursal, con su punto de color. Se queda como lo dejaste
-- Corregido: al escribir el nombre de una importación la pantalla se volvía a armar con cada letra
-- Ya no aparece la barra para desplazarse a los lados: las notas a la derecha se acomodan en varios renglones y las pestañas se aprietan si no caben
-- La ventana ya no puede ser más grande que la pantalla en laptops con la letra al 125 %
-- Más fluido al escribir: el encabezado y el menú no se recalculan con cada letra
+- Repaso completo de todas las pantallas para laptops y letra al 125 %: nada se sale de la ventana ni aparece la barra para desplazarse a los lados
+  - las pestañas que no caben pasan a un segundo renglón en vez de cortarse
+  - botones y campos que no caben a lo ancho bajan al siguiente renglón
+  - las opciones tipo tarjeta se ponen una debajo de otra si no caben juntas; los grupos de catálogos pasan a una columna
+  - el título, la ruta y el estado de la sucursal ya no se meten debajo de los botones (si no caben, terminan en "…" y al pasar el mouse se ve completo)
+- Textos más cortos en "¿Cómo guardarlos?" de Días pasados
