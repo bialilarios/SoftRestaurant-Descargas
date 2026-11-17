@@ -1,6 +1,7 @@
-- Repaso completo de todas las pantallas para laptops y letra al 125 %: nada se sale de la ventana ni aparece la barra para desplazarse a los lados
-  - las pestañas que no caben pasan a un segundo renglón en vez de cortarse
-  - botones y campos que no caben a lo ancho bajan al siguiente renglón
-  - las opciones tipo tarjeta se ponen una debajo de otra si no caben juntas; los grupos de catálogos pasan a una columna
-  - el título, la ruta y el estado de la sucursal ya no se meten debajo de los botones (si no caben, terminan en "…" y al pasar el mouse se ve completo)
-- Textos más cortos en "¿Cómo guardarlos?" de Días pasados
+- Calendario rehecho (Días pasados y Días):
+  - clic en un día lo elige o lo quita; arrastrar elige varios (si empiezas en un día ya elegido, los quita); Shift + clic elige un tramo desde el último día tocado; clic en el nombre del mes = el mes completo
+  - mientras arrastras ves el tramo pintado y abajo cuántos días se van a elegir o quitar
+  - ya no salen globitos que parpadean: lo que pasó en cada día se lee abajo del calendario al pasar el mouse
+  - mucho más rápido: no recalcula todo con cada movimiento del mouse ni con cada clic
+  - "Días elegidos" queda como periodos seguidos, fácil de leer
+- Repaso de pantallas: un renglón vacío de más en la pestaña Días
