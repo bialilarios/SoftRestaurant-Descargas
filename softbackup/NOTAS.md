@@ -1,7 +1,3 @@
-- Calendario rehecho (Días pasados y Días):
-  - clic en un día lo elige o lo quita; arrastrar elige varios (si empiezas en un día ya elegido, los quita); Shift + clic elige un tramo desde el último día tocado; clic en el nombre del mes = el mes completo
-  - mientras arrastras ves el tramo pintado y abajo cuántos días se van a elegir o quitar
-  - ya no salen globitos que parpadean: lo que pasó en cada día se lee abajo del calendario al pasar el mouse
-  - mucho más rápido: no recalcula todo con cada movimiento del mouse ni con cada clic
-  - "Días elegidos" queda como periodos seguidos, fácil de leer
-- Repaso de pantallas: un renglón vacío de más en la pestaña Días
+- Corregido: después de "Activar / guardar horario" seguía diciendo "No está activado en esta PC". La tarea que corre aunque nadie haya iniciado sesión la crea Windows con permisos de administrador y SoftBackup no la alcanzaba a ver; ahora la reconoce. Si de verdad no quedó (por ejemplo si dijiste que no al permiso de administrador), lo dice
+- "Respaldar ahora en segundo plano" ya no depende de la tarea: respalda en ese momento todas las sucursales activas, sin abrir ventanas
+- Las horas se ven en las dos formas: "4:00 a. m. (04:00)", "1:30 p. m. (13:30)", "12:00 p. m. (12:00, mediodía)"
