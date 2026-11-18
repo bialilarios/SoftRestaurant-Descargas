@@ -1,7 +1,4 @@
-- Pantalla de cada sucursal más sencilla: 4 pestañas en vez de 8
-  - Inicio: cómo va de un vistazo (todo al día, días por respaldar, errores), último respaldo, los últimos 14 días en colores y la revisión con "Arreglar lo que falta"
-  - Días: el calendario y la tabla de cada día
-  - Configurar: secciones que se abren y cierran (Conexión, Qué respaldar, Carpetas y nombres, Horario automático, Más opciones), cada una con su resumen y ✔ o ✖
-  - Días pasados
-- Los avisos por correo ya no salen como pendientes en la sucursal: se configuran aparte en "Avisos por correo", incluso a quién avisar de cada sucursal
-- Fechas más fáciles de leer ("hoy, 4:05 a. m.")
+- La ventana se abre donde la dejaste (y maximizada la primera vez en pantallas de laptop)
+- Sin esquinas negras en las tarjetas de la revisión ni botones desactivados que parecían huecos
+- Menú de la izquierda más limpio: un solo botón "Agregar sucursal"; duplicar, guardar en archivo o quitar están en el botón "⋯" de la sucursal o con clic derecho sobre ella
+- Íconos del menú alineados
