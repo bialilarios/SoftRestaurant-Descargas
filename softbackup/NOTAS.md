@@ -1,10 +1,5 @@
-- Pestañas más simples: Inicio, Resumen (antes Días y Días pasados juntos) y Configurar
-- Resumen: un solo calendario con lo que ya está, lo que falta y los días sin ventas (se consultan solos); eliges días y "Respaldar los elegidos"
-- Simbología del calendario más grande y clara
-- Carpetas: formas ya hechas con la vista previa a la derecha, o "Personalizado"; el mes ya no lleva número ("Noviembre")
-- Configurar: botón "Guardar cambios" que dice si la configuración ya está completa
-- Los respaldos e importaciones siguen aunque cierres su ventana; abajo se ve la barra de procesos (clic para ver el detalle)
-- En Inicio, "Arreglar lo que falta" solo sale cuando falta algo
-- La prueba de restauración muestra su resultado en la misma ventana
-- Se quitó healthchecks.io (para eso está SoftBackup Monitor)
-- Borra los .bak temporales que dejaban los respaldos de la base que fallaban
+- Importación automática para el servidor central: "Detectar sucursales…" busca en OneDrive los zips de cada sucursal (sin importar cómo estén acomodadas las carpetas) y crea una importación por sucursal, cada una a su base
+- Importar a una hora (una vez al día o cada N horas) y en los días que elijas; la tarea automática se activa desde ahí mismo
+- No importa zips que parezcan de otra sucursal (las reconoce por sus cajas)
+- Ya no vuelve a abrir ni descargar de OneDrive los zips ya importados
+- Avisos por correo: Gmail, Outlook, Microsoft 365, Yahoo u otro; asunto, mensaje y firma propios con vista previa; resumen diario, semanal o mensual a la hora que elijas; el resumen incluye las importaciones
