@@ -1,4 +1,10 @@
-- La ventana se abre donde la dejaste (y maximizada la primera vez en pantallas de laptop)
-- Sin esquinas negras en las tarjetas de la revisión ni botones desactivados que parecían huecos
-- Menú de la izquierda más limpio: un solo botón "Agregar sucursal"; duplicar, guardar en archivo o quitar están en el botón "⋯" de la sucursal o con clic derecho sobre ella
-- Íconos del menú alineados
+- Pestañas más simples: Inicio, Resumen (antes Días y Días pasados juntos) y Configurar
+- Resumen: un solo calendario con lo que ya está, lo que falta y los días sin ventas (se consultan solos); eliges días y "Respaldar los elegidos"
+- Simbología del calendario más grande y clara
+- Carpetas: formas ya hechas con la vista previa a la derecha, o "Personalizado"; el mes ya no lleva número ("Noviembre")
+- Configurar: botón "Guardar cambios" que dice si la configuración ya está completa
+- Los respaldos e importaciones siguen aunque cierres su ventana; abajo se ve la barra de procesos (clic para ver el detalle)
+- En Inicio, "Arreglar lo que falta" solo sale cuando falta algo
+- La prueba de restauración muestra su resultado en la misma ventana
+- Se quitó healthchecks.io (para eso está SoftBackup Monitor)
+- Borra los .bak temporales que dejaban los respaldos de la base que fallaban
