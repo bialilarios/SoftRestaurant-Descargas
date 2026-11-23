@@ -1,3 +1,2 @@
-- "Crear sucursal" ahora pide primero lo básico: negocio, nombre, servidor SQL y base (con "Buscar bases" y "Crear base nueva…")
-- Luego eliges qué hace esta PC con ella: "Respaldarla (exportar)" y/o "Importarle respaldos (importar)"
-- En el "⋯" de una sucursal que respalda: "Importarle también a otra base…"
+- Al abrir no se elige nada: pantalla de inicio con el logo, "Para empezar" y la lista de sucursales (clic en "SoftBackup" arriba a la izquierda para volver)
+- Se quitaron "Respaldar ahora" e "Importar lo pendiente" de arriba: se hace desde Resumen, con el calendario
