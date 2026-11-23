@@ -1,8 +1,3 @@
-- Configurar: al abrir una sección se cierran las demás
-- Inicio: los últimos 14 días con los mismos colores que Resumen, cuántos hay de cada uno, y clic para ir a respaldarlos
-- Inicio: mientras revisa ya no aparece el botón "Arreglar" apagado
-- Al cambiar de pestaña ya no queda una caja con todo el texto en azul
-- Bitácora: filtros más ordenados y el renglón elegido se lee completo abajo
-- Importar: carpeta y botones en un solo renglón, columnas más claras
-- Ya no avisa "necesita la base completa" cuando sí está marcada
-- Textos al día: "Sin ventas" en vez de "Sin operación", sin referencias a pestañas que ya no existen, y sin ".." después de "a. m."
+- La ventana de un respaldo se puede minimizar a la barra de tareas; el botón muestra el avance (y el % en el título)
+- Resumen: el calendario se va pintando mientras corre el respaldo, y ya no dice "todo respaldado" cuando hay días que no se respaldan
+- PIN: al ponerlo se muestra un código de emergencia; si se olvida, "¿Olvidaste el PIN?" lo quita con ese código o con un administrador de Windows
