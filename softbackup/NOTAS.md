@@ -1,3 +1,6 @@
-- La ventana de un respaldo se puede minimizar a la barra de tareas; el botón muestra el avance (y el % en el título)
-- Resumen: el calendario se va pintando mientras corre el respaldo, y ya no dice "todo respaldado" cuando hay días que no se respaldan
-- PIN: al ponerlo se muestra un código de emergencia; si se olvida, "¿Olvidaste el PIN?" lo quita con ese código o con un administrador de Windows
+- Avisos por correo rehechos, como en el panel del Sincronizador: registras cada correo y entras a su ficha
+- Ficha de cada correo: "Qué recibe" (sus envíos), "Historial" (todo lo enviado, con el correo exacto que le llegó) y "Datos"
+- Envíos: avisos de errores al momento, respaldo correcto, o reportes programados (diario, semanal o mensual, a una hora, eligiendo secciones y sucursales, y "solo si hay algo que atender")
+- Cada envío se puede editar, ver en vista previa, probar, pausar, copiar a otro correo o quitar
+- Cada correo recibe su propio mensaje; si uno falla se reintenta en la siguiente hora
+- Lo que tenías configurado se pasó solo a correos registrados
