@@ -1,2 +1,2 @@
-- "Crear base nueva" mucho más rápido: vacía las tablas con TRUNCATE (en vez de borrar renglón por renglón), ya no copia el .bak dos veces, no reacomoda toda la base al final y copia con búferes más grandes
-- La Bitácora anota cuánto tardó cada paso al crear una base
+- "Bases de prueba y .bak" › "Bases creadas por SoftBackup": lista las bases vacías o restauradas desde SoftBackup (con fecha, tamaño, de dónde salieron y qué sucursal las usa) y permite borrarlas escribiendo su nombre para confirmar
+- Solo aparecen y se pueden borrar las que creó SoftBackup (llevan su marca o el historial de SQL lo confirma); nunca las bases de SoftRestaurant ni las que respalda una sucursal
