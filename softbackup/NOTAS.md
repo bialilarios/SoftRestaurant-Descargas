@@ -1,4 +1,3 @@
-- Menú de la izquierda: una sola lista de SUCURSALES; cada una dice si "Respalda" o "Importa → base"
-- "+ Crear sucursal" al final de la lista: eliges si esta PC la respalda (exportar) o la importa a una base (servidor central); ahí mismo, desde archivo o detectar en una carpeta
-- Se quitó el botón "+ Agregar"; Bases de prueba, Ver zips, Correo, Bitácora e Información quedan hasta abajo
-- Ya no avisa "esa base la usa una sucursal" cuando todavía no se elige base
+- "Crear sucursal" ahora pide primero lo básico: negocio, nombre, servidor SQL y base (con "Buscar bases" y "Crear base nueva…")
+- Luego eliges qué hace esta PC con ella: "Respaldarla (exportar)" y/o "Importarle respaldos (importar)"
+- En el "⋯" de una sucursal que respalda: "Importarle también a otra base…"
