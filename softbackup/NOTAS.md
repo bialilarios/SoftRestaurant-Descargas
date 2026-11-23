@@ -1,2 +1,3 @@
-- Al abrir no se elige nada: pantalla de inicio con el logo, "Para empezar" y la lista de sucursales (clic en "SoftBackup" arriba a la izquierda para volver)
-- Se quitaron "Respaldar ahora" e "Importar lo pendiente" de arriba: se hace desde Resumen, con el calendario
+- Menú: una entrada por sucursal con sus botones "Exportar" e "Importar"; la parte que falta sale como "+ Exportar" / "+ Importar" para agregarla
+- Crear sucursal: eliges "Exportar" o "Importar" y un solo botón "Crear sucursal"
+- El punto de color de cada sucursal muestra lo peor de sus dos partes
