@@ -1,3 +1,2 @@
-- Menú: una entrada por sucursal con sus botones "Exportar" e "Importar"; la parte que falta sale como "+ Exportar" / "+ Importar" para agregarla
-- Crear sucursal: eliges "Exportar" o "Importar" y un solo botón "Crear sucursal"
-- El punto de color de cada sucursal muestra lo peor de sus dos partes
+- Crear sucursal: se pueden marcar "Exportar" e "Importar" a la vez, cada una con su base ("Base que se exporta" y "Base a la que se importa", con "Crear base nueva…")
+- Si se marcan las dos, no deja usar la misma base para exportar e importar
