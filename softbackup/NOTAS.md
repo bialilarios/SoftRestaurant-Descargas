@@ -1,2 +1,4 @@
-- Importación › Base destino: botón "Crear base nueva…" junto a "Buscar bases" (base vacía con la estructura de SoftRestaurant, queda como destino)
-- Se quitó "Olvidar las cajas conocidas"
+- Menú de la izquierda: una sola lista de SUCURSALES; cada una dice si "Respalda" o "Importa → base"
+- "+ Crear sucursal" al final de la lista: eliges si esta PC la respalda (exportar) o la importa a una base (servidor central); ahí mismo, desde archivo o detectar en una carpeta
+- Se quitó el botón "+ Agregar"; Bases de prueba, Ver zips, Correo, Bitácora e Información quedan hasta abajo
+- Ya no avisa "esa base la usa una sucursal" cuando todavía no se elige base
