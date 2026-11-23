@@ -1,4 +1,2 @@
-- La carpeta del mes ahora lleva número por defecto (06 Junio, 07 Julio…) para que queden en orden; en Configurar › Carpetas y nombres se puede dejar solo el nombre
-- Si quedaron carpetas de mes de las dos formas ("Junio" y "06 Junio"), el botón "Juntarlas" mueve los respaldos a la forma elegida sin borrar nada (si ya hay uno con el mismo nombre, el que llega se guarda con otro nombre)
-- "No se respalda" ahora se llama "Excluido" y solo aparece cuando hay días así; el botón es "Excluir"
-- Las formas ya hechas de carpetas se reconocen aunque el mes lleve número
+- Importación › Base destino: botón "Crear base nueva…" junto a "Buscar bases" (base vacía con la estructura de SoftRestaurant, queda como destino)
+- Se quitó "Olvidar las cajas conocidas"
