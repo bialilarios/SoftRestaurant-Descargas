@@ -1,2 +1,2 @@
-- Crear sucursal: se pueden marcar "Exportar" e "Importar" a la vez, cada una con su base ("Base que se exporta" y "Base a la que se importa", con "Crear base nueva…")
-- Si se marcan las dos, no deja usar la misma base para exportar e importar
+- "Crear base nueva" mucho más rápido: vacía las tablas con TRUNCATE (en vez de borrar renglón por renglón), ya no copia el .bak dos veces, no reacomoda toda la base al final y copia con búferes más grandes
+- La Bitácora anota cuánto tardó cada paso al crear una base
