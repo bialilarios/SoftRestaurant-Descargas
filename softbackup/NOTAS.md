@@ -1,6 +1,8 @@
-- Resumen rehecho: siempre el año completo (‹ 2026 › para cambiar de año), cuadritos con colores claros y la leyenda con cuántos días hay de cada uno
-- Clic en un color de la leyenda elige todos esos días; clic en el nombre del mes elige el mes
-- Barra fija abajo con lo elegido: "Respaldar", "No respaldar", "Volver a incluir" y cómo agrupar los zips
-- "No respaldar" ya no toca los días respaldados, y "Volver a incluir" solo quita esa marca
-- Los días cuyo zip ya está en la carpeta se vuelven a reconocer como respaldados (arregla los que se veían sin respaldo)
-- La página ya no se regresa hasta arriba al hacer clic en el calendario o en una tabla
+- Configurar: al abrir una sección se cierran las demás
+- Inicio: los últimos 14 días con los mismos colores que Resumen, cuántos hay de cada uno, y clic para ir a respaldarlos
+- Inicio: mientras revisa ya no aparece el botón "Arreglar" apagado
+- Al cambiar de pestaña ya no queda una caja con todo el texto en azul
+- Bitácora: filtros más ordenados y el renglón elegido se lee completo abajo
+- Importar: carpeta y botones en un solo renglón, columnas más claras
+- Ya no avisa "necesita la base completa" cuando sí está marcada
+- Textos al día: "Sin ventas" en vez de "Sin operación", sin referencias a pestañas que ya no existen, y sin ".." después de "a. m."
