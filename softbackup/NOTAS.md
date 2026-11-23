@@ -1,6 +1,7 @@
-- Avisos por correo rehechos, como en el panel del Sincronizador: registras cada correo y entras a su ficha
-- Ficha de cada correo: "Qué recibe" (sus envíos), "Historial" (todo lo enviado, con el correo exacto que le llegó) y "Datos"
-- Envíos: avisos de errores al momento, respaldo correcto, o reportes programados (diario, semanal o mensual, a una hora, eligiendo secciones y sucursales, y "solo si hay algo que atender")
-- Cada envío se puede editar, ver en vista previa, probar, pausar, copiar a otro correo o quitar
-- Cada correo recibe su propio mensaje; si uno falla se reintenta en la siguiente hora
-- Lo que tenías configurado se pasó solo a correos registrados
+- Importaciones como sucursales: cada una sale en el menú de la izquierda (debajo de las sucursales) con Inicio, Resumen y Configurar
+- Inicio de la importación: si se importa sola, lo pendiente, la revisión (base destino, carpeta, tarea) y los últimos 14 días
+- Resumen: el año completo día por día (importado, por importar, con error, sin zip); eliges días para importarlos, marcarlos o quitar la marca; abajo los archivos, primero lo pendiente
+- Configurar: base destino, de dónde y qué, horario automático y seguridad, con barra que dice si ya está completa
+- "+ Agregar" ahora ofrece sucursal, importación o "Detectar sucursales en una carpeta" (servidor central)
+- "Bases de prueba y .bak" es su propia pantalla, con su propio servidor; al terminar, "Usar en una importación"
+- Menús oscuros, clic derecho en una importación para duplicarla o quitarla
