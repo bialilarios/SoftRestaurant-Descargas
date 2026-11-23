@@ -1,5 +1,6 @@
-- Importación automática para el servidor central: "Detectar sucursales…" busca en OneDrive los zips de cada sucursal (sin importar cómo estén acomodadas las carpetas) y crea una importación por sucursal, cada una a su base
-- Importar a una hora (una vez al día o cada N horas) y en los días que elijas; la tarea automática se activa desde ahí mismo
-- No importa zips que parezcan de otra sucursal (las reconoce por sus cajas)
-- Ya no vuelve a abrir ni descargar de OneDrive los zips ya importados
-- Avisos por correo: Gmail, Outlook, Microsoft 365, Yahoo u otro; asunto, mensaje y firma propios con vista previa; resumen diario, semanal o mensual a la hora que elijas; el resumen incluye las importaciones
+- Resumen rehecho: siempre el año completo (‹ 2026 › para cambiar de año), cuadritos con colores claros y la leyenda con cuántos días hay de cada uno
+- Clic en un color de la leyenda elige todos esos días; clic en el nombre del mes elige el mes
+- Barra fija abajo con lo elegido: "Respaldar", "No respaldar", "Volver a incluir" y cómo agrupar los zips
+- "No respaldar" ya no toca los días respaldados, y "Volver a incluir" solo quita esa marca
+- Los días cuyo zip ya está en la carpeta se vuelven a reconocer como respaldados (arregla los que se veían sin respaldo)
+- La página ya no se regresa hasta arriba al hacer clic en el calendario o en una tabla
