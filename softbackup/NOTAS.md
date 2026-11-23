@@ -1,7 +1,4 @@
-- Importaciones como sucursales: cada una sale en el menú de la izquierda (debajo de las sucursales) con Inicio, Resumen y Configurar
-- Inicio de la importación: si se importa sola, lo pendiente, la revisión (base destino, carpeta, tarea) y los últimos 14 días
-- Resumen: el año completo día por día (importado, por importar, con error, sin zip); eliges días para importarlos, marcarlos o quitar la marca; abajo los archivos, primero lo pendiente
-- Configurar: base destino, de dónde y qué, horario automático y seguridad, con barra que dice si ya está completa
-- "+ Agregar" ahora ofrece sucursal, importación o "Detectar sucursales en una carpeta" (servidor central)
-- "Bases de prueba y .bak" es su propia pantalla, con su propio servidor; al terminar, "Usar en una importación"
-- Menús oscuros, clic derecho en una importación para duplicarla o quitarla
+- La carpeta del mes ahora lleva número por defecto (06 Junio, 07 Julio…) para que queden en orden; en Configurar › Carpetas y nombres se puede dejar solo el nombre
+- Si quedaron carpetas de mes de las dos formas ("Junio" y "06 Junio"), el botón "Juntarlas" mueve los respaldos a la forma elegida sin borrar nada (si ya hay uno con el mismo nombre, el que llega se guarda con otro nombre)
+- "No se respalda" ahora se llama "Excluido" y solo aparece cuando hay días así; el botón es "Excluir"
+- Las formas ya hechas de carpetas se reconocen aunque el mes lleve número
