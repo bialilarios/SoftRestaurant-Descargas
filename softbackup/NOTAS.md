@@ -1,2 +1,3 @@
-- La plantilla vacía se prepara sola en segundo plano (al abrir SoftBackup, al crear una sucursal y en la tarea automática fuera del horario de servicio), así "Crear base nueva" tarda segundos desde la primera vez que la usas
-- Si todavía se está preparando, la ventana de crear base lo avisa
+- Crear base vacía ahora "dibuja" la base en blanco: lee la estructura de la base de origen (tablas, columnas, llaves, índices, vistas, procedimientos, funciones, disparadores), crea la nueva sin datos y llena solo la configuración. Ya no respalda ni restaura los 2.6 GB
+- Al final revisa que la estructura quedó igual (tablas, columnas, índices, llaves, vistas y procedimientos); si algo no cuadra, la crea con respaldo y restauración como antes
+- Ya no se prepara la plantilla en segundo plano (no hace falta)
