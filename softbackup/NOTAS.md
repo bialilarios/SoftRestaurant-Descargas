@@ -1,2 +1,1 @@
-- Crear base vacía más rápido: chequesf, cheqdetf y chequespagosf (ventas facturadas) quedan vacías como las demás ventas, y las tablas de historial muy grandes (más de 5,000 renglones) ya no se copian como si fueran configuración
-- La Bitácora dice qué tablas grandes quedaron vacías
+- Crear base vacía: sí se copian etiquetaslenguaje (textos de la pantalla), HistorialActualizaciones (versión de la base), estacionesalmacen, numerostarjetas y nsplatformcontrol; solo quedan vacías las ventas (incluidas las facturadas: chequesf, cheqdetf, chequespagosf, turnosf) y la bitácora del sistema
