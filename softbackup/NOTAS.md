@@ -1,3 +1,2 @@
-- Verificación automática: después de importar cada zip de ventas, se vuelve a leer el zip y se compara contra la base (turnos, cuentas y su total, partidas, pagos y su importe). Si cuadra queda "verificado"; si no, el día queda en rojo y cuenta como error (aviso por correo si está activo)
-- Inicio de la importación: renglón de verificación y botón "Verificar" para revisar lo que se importó antes (sin volver a importar)
-- Resumen: cada día y cada archivo dice si está verificado
+- Crear base vacía más rápido: chequesf, cheqdetf y chequespagosf (ventas facturadas) quedan vacías como las demás ventas, y las tablas de historial muy grandes (más de 5,000 renglones) ya no se copian como si fueran configuración
+- La Bitácora dice qué tablas grandes quedaron vacías
