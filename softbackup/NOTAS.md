@@ -1,2 +1,2 @@
-- "Bases de prueba y .bak" › "Bases creadas por SoftBackup": lista las bases vacías o restauradas desde SoftBackup (con fecha, tamaño, de dónde salieron y qué sucursal las usa) y permite borrarlas escribiendo su nombre para confirmar
-- Solo aparecen y se pueden borrar las que creó SoftBackup (llevan su marca o el historial de SQL lo confirma); nunca las bases de SoftRestaurant ni las que respalda una sucursal
+- Crear base vacía: la primera vez guarda una plantilla vacía (un .bak chico); las siguientes se crean desde ella en segundos (se renueva sola a los 30 días; se puede desmarcar)
+- Cronómetro mientras se crea la base: cuánto lleva y cuánto falta aprox. (según la vez anterior); al terminar dice cuánto tardó
