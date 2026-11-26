@@ -1,2 +1,2 @@
-- Crear base vacía: la primera vez guarda una plantilla vacía (un .bak chico); las siguientes se crean desde ella en segundos (se renueva sola a los 30 días; se puede desmarcar)
-- Cronómetro mientras se crea la base: cuánto lleva y cuánto falta aprox. (según la vez anterior); al terminar dice cuánto tardó
+- La plantilla vacía se prepara sola en segundo plano (al abrir SoftBackup, al crear una sucursal y en la tarea automática fuera del horario de servicio), así "Crear base nueva" tarda segundos desde la primera vez que la usas
+- Si todavía se está preparando, la ventana de crear base lo avisa
