@@ -1,3 +1,3 @@
-- Crear base vacía ahora "dibuja" la base en blanco: lee la estructura de la base de origen (tablas, columnas, llaves, índices, vistas, procedimientos, funciones, disparadores), crea la nueva sin datos y llena solo la configuración. Ya no respalda ni restaura los 2.6 GB
-- Al final revisa que la estructura quedó igual (tablas, columnas, índices, llaves, vistas y procedimientos); si algo no cuadra, la crea con respaldo y restauración como antes
-- Ya no se prepara la plantilla en segundo plano (no hace falta)
+- Verificación automática: después de importar cada zip de ventas, se vuelve a leer el zip y se compara contra la base (turnos, cuentas y su total, partidas, pagos y su importe). Si cuadra queda "verificado"; si no, el día queda en rojo y cuenta como error (aviso por correo si está activo)
+- Inicio de la importación: renglón de verificación y botón "Verificar" para revisar lo que se importó antes (sin volver a importar)
+- Resumen: cada día y cada archivo dice si está verificado
