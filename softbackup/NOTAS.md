@@ -1,1 +1,1 @@
-- Crear base vacía: sí se copian etiquetaslenguaje (textos de la pantalla), HistorialActualizaciones (versión de la base), estacionesalmacen, numerostarjetas y nsplatformcontrol; solo quedan vacías las ventas (incluidas las facturadas: chequesf, cheqdetf, chequespagosf, turnosf) y la bitácora del sistema
+- Resumen (exportar): al respaldar días elegidos también se respaldan los catálogos de hoy (se puede quitar en el botón de opciones de la barra de abajo, junto con "Incluir la base completa")
