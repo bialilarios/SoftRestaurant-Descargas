@@ -1,1 +1,3 @@
-- Resumen (exportar): al respaldar días elegidos también se respaldan los catálogos de hoy (se puede quitar en el botón de opciones de la barra de abajo, junto con "Incluir la base completa")
+- Importar: arreglado el error al importar ventas que traen compras u órdenes de compra ("La columna fechaaplicacion no pertenece…" / "Invalid object name ordenescompras")
+- Importar › Inicio: dice en qué carpeta se buscaron los zips
+- La barra de abajo ya no se corta
